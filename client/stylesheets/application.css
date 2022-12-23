@@ -1,0 +1,55 @@
+* {
+    background-color: lightgray
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+/* AddTodo */
+#addItemForm > input{
+    width: 35vw;
+    margin-right: 0.,75vw;
+    background-color: white;
+}
+
+#addItemForm > button{
+    margin-left: 1vw;
+}
+
+/* ItemsContainer */
+.items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25vw;
+    margin-top: 2vw;
+    position: relative;
+}
+
+/* TodoItem */
+.todo-item {
+    display: flex;
+    border: 1.5px solid black;
+    width: 40vw;
+    padding: 10px;
+    align-items: center;
+}
+
+.todo-item > .complete-box {
+    margin-right: 1vw;
+}
+
+.todo-item > .edit-task-button {
+    margin: 4px;
+    position: absolute;
+    right: 40px
+}
+
+.todo-item > .delete-task-button {
+    margin: 4px;
+    position: absolute;
+    right: 10px;
+}
